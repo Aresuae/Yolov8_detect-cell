@@ -1,0 +1,14 @@
+path: G:/yolov8/dataste
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: ['A', 'B']
+
+roboflow:
+  workspace: yolo-31k0y
+  project: lung-pet-ct-dx-dataste-augmentation
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-31k0y/lung-pet-ct-dx-data-augmentation/dataset/2

@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# YOLOv8 training outputs and weights
+runs/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Dataset (images and archives are too large for GitHub)
+dataste/train/
+dataste/valid/
+dataste/test/
+dataste/*.zip
+dataste/*.jpg
+dataste/*.png
+dataste/*.jpeg
+
+# OS
+.DS_Store
+Thumbs.db
